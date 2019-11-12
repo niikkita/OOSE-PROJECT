@@ -1,0 +1,121 @@
+<html>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+* {
+  box-sizing: border-box;
+  box-shadow: black;
+  box-align: center;
+}
+
+/* Add padding to containers */
+.container {
+  align-self: center;
+  padding-left: 27%;
+  width: 100%;
+  }
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 60%;
+  height: 45px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 5px ;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.75;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+</style>
+
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                <a class="navbar-brand" href="Homepage.html">
+                    <img src="logo.jpg" alt="logo" style="width:40px;">
+                </a>
+                 <ul class="navbar-nav navbar-right" >
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Booking.html">Book</a>
+                  </li>
+                    </li>
+            </ul>
+        </nav>
+
+<form action="/action_page.php" >
+  <div class="container">
+    <br><br><br><h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+
+    <input type="text" placeholder="First Name" name="FNAME" style="width: 30%" required><input type="text" placeholder="Last Name" name="LNAME" style="width: 30%"required><br>
+
+
+    <input type="text" placeholder="EMAIL" name="email" required>
+
+    <input type="password" placeholder="ENTER PASSWORD" name="psw" required>
+
+    <input type="password" placeholder="REPEAT PASSWORD" name="psw-repeat" required>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container">
+    <p style="padding-left: 25px">Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
+
+              
+              
+</body>
+
+</html>
